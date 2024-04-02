@@ -18,6 +18,8 @@
 # Базовый класс Animal
 # Базовый класс Животное
 # Базовый класс Животное
+import json
+
 class Animal:
     def __init__(self, name, age):
         self.name = name
